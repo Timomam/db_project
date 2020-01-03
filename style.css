@@ -103,6 +103,10 @@ form {
     margin-right: auto;
 }
 
+form input {
+    margin: 30px;
+}
+
 
 #input-window p {
     text-align: center;
