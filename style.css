@@ -159,6 +159,11 @@ header nav {
     justify-content: center;
 }
 
+table a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     position: absolute;
     bottom: 0;
