@@ -21,7 +21,7 @@ require_once("mysqlConnection.php");
             <a href="ilmoitukset.html">Ilmoitukset</a>
         </nav>
     </header>
-    <div id="input-window">
+    <div id="input-window" action="lisaa_oivallus.php" method="post">
         <p>Lisää ilmoitus</p>
         <div id="input1">
             <input type="date">
@@ -40,7 +40,7 @@ require_once("mysqlConnection.php");
             </select>
         </div>
         <div id="input4">
-            <input type="text" name="explanation" placeholder="Selitä tilanne tähän lyhyesti (max 150 kirjainta)" maxlength="150">
+            <input type="text" name="selite" placeholder="Selitä tilanne tähän lyhyesti (max 150 kirjainta)" maxlength="150">
         </div>
         <div id="button">
             <input type="button" value="Lähetä">
