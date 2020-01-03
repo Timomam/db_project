@@ -23,11 +23,11 @@ require_once("mysqlConnection.php");
     </header>
     <div id="input-window">
          <form action="lisaa_ilmoitus.php" method="post">
-            <input type="date">
-            <input type="time">
+            <input type="date" name="pvm">
+            <input type="time" name="aika">
             <input type="number" name="osastoID" placeholder="osastoID">
             <input type="number" name="tyontekijaID" placeholder="työntekijäID">
-            <select name="type of risk">
+            <select name="laatu">
                 <option value="" disabled selected hidden>Valitse riskin laatu</option>
                 <option value="minor">Lievä</option>
                 <option value="serious">Vakava</option>
