@@ -29,9 +29,9 @@ require_once("mysqlConnection.php");
             <input type="number" name="tyontekijaID" placeholder="työntekijäID">
             <select name="laatu">
                 <option value="" disabled selected hidden>Valitse riskin laatu</option>
-                <option value="minor">Lievä</option>
-                <option value="serious">Vakava</option>
-                <option value="very serious">Erittäin vakava</option>
+                <option value="lievä">Lievä</option>
+                <option value="vakava">Vakava</option>
+                <option value="erittäin vakava">Erittäin vakava</option>
             </select>
             <input type="text" name="selite" placeholder="Selitä tilanne tähän lyhyesti (max 150 kirjainta)" maxlength="150">
             <input type="submit" value="Lähetä">
