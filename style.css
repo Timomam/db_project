@@ -94,7 +94,6 @@ header nav {
 }
 
 form {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -104,15 +103,6 @@ form {
     margin-right: auto;
 }
 
-#input-fields input {
-    margin: 10px;
-    width: 200px;
-}
-
-#input-fields select {
-    margin: 10px;
-    width: 150px;
-}
 
 #input-window p {
     text-align: center;
