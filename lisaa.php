@@ -22,29 +22,19 @@ require_once("mysqlConnection.php");
         </nav>
     </header>
     <div id="input-window">
-    <form action="lisaa_ilmoitus.php" method="post">
-        <p>Lisää ilmoitus</p>
-        <div id="input1">
+         <form action="lisaa_ilmoitus.php" method="post">
             <input type="date">
             <input type="time">
-        </div>
-        <div id="input2">
             <input type="number" name="osastoID" placeholder="osastoID">
             <input type="number" name="työntekijäID" placeholder="työntekijäID">
-        </div>
-        <div id="input3">
             <select name="type of risk">
                 <option value="" disabled selected hidden>Valitse riskin laatu</option>
                 <option value="minor">Lievä</option>
                 <option value="serious">Vakava</option>
                 <option value="very serious">Erittäin vakava</option>
             </select>
-        </div>
-        <div id="input4">
             <input type="text" name="selite" placeholder="Selitä tilanne tähän lyhyesti (max 150 kirjainta)" maxlength="150">
-        </div>
-        <div id="button">
-            <input type="button" value="Lähetä">
+            <input type="submit" value="Lähetä">
         </form>
         </div>
     </div>
