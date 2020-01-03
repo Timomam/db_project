@@ -1,2 +1,3 @@
-# db_project
-Database for a school project
+# riskiseuranta
+School project
+A small app for workplace safety monitoring 
