@@ -26,7 +26,7 @@ require_once("mysqlConnection.php");
             <input type="date">
             <input type="time">
             <input type="number" name="osastoID" placeholder="osastoID">
-            <input type="number" name="työntekijäID" placeholder="työntekijäID">
+            <input type="number" name="tyontekijaID" placeholder="työntekijäID">
             <select name="type of risk">
                 <option value="" disabled selected hidden>Valitse riskin laatu</option>
                 <option value="minor">Lievä</option>
