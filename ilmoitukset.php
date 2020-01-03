@@ -24,9 +24,12 @@ require_once("mysqlConnection.php");
     <div id="table">
         <table style="width:90%">
           <tr>
-            <th class="left">Pvm</th>
-            <th class="center">Tuote</th> 
-            <th class="right">Poista</th>
+            <th class="column1">id</th>
+            <th class="column2">aika</th> 
+            <th class="column3">osastoID</th>
+            <th class="column4">tyontekijaID</th>
+            <th class="column5">laatu</th>
+            <th class="column6">selite</th>
           </tr>
           <tbody>
 
