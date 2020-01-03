@@ -153,6 +153,7 @@ header nav {
 }
 
 #table {
+    background-color: white;
     margin-top: 40px;
     text-align: center;
     display:flex;
@@ -163,6 +164,11 @@ header nav {
 table a {
     text-decoration: none;
     color: red;
+}
+
+table td {
+    background-color: #545454;
+    color: #EBEBEB;
 }
 
 footer {
