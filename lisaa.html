@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en" charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>Riskiseuranta</title>
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Riskiseuranta</h1>
+        </div>
+        <nav>
+            <a href="file:///C:/Users/Dimpp/OneDrive/Documents/Amiedu/OPT-tutkinnonosa/Content/index.html">Login</a>
+            <a href="file:///C:/Users/Dimpp/OneDrive/Documents/Amiedu/OPT-tutkinnonosa/Content/lisaa.html">Lisää ilmoitus</a>
+            <a href="file:///C:/Users/Dimpp/OneDrive/Documents/Amiedu/OPT-tutkinnonosa/Content/ilmoitukset.html">Ilmoitukset</a>
+        </nav>
+    </header>
+    <div id="input-window">
+        <p>Lisää ilmoitus</p>
+        <div id="input1">
+            <input type="date">
+            <input type="time">
+        </div>
+        <div id="input2">
+            <input type="number" name="osastoID" placeholder="osastoID">
+            <input type="number" name="työntekijäID" placeholder="työntekijäID">
+        </div>
+        <div id="input3">
+            <select name="type of risk">
+                <option value="" disabled selected hidden>Valitse riskin laatu</option>
+                <option value="minor">Lievä</option>
+                <option value="serious">Vakava</option>
+                <option value="very serious">Erittäin vakava</option>
+            </select>
+        </div>
+        <div id="input4">
+            <input type="text" name="explanation" placeholder="Selitä tilanne tähän lyhyesti (max 150 kirjainta)" maxlength="150">
+        </div>
+        <div id="button">
+            <input type="button" value="Lähetä">
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
