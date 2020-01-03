@@ -1,3 +1,7 @@
+<?php
+require_once("mysqlConnection.php");
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,9 +21,22 @@
             <a href="ilmoitukset.html">Ilmoitukset</a>
         </nav>
     </header>
-    <div id="notifications">
-        <p>Ilmoitukset</p>
-    </div>
+    <div id="table">
+        <table style="width:90%">
+          <tr>
+            <th class="left">Pvm</th>
+            <th class="center">Tuote</th> 
+            <th class="right">Poista</th>
+          </tr>
+          <tbody>
+
+<?php
+include("listaa_oivallus.php");
+?>
+
+              </tbody>
+        </table>
+      </div>
     <footer>
     </footer>
 </body>
