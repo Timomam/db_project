@@ -16,9 +16,9 @@ require_once("mysqlConnection.php");
             <h1>Riskiseuranta</h1>
         </div>
         <nav>
-            <a href="index.html">Login</a>
-            <a href="lisaa.html">Lisää ilmoitus</a>
-            <a href="ilmoitukset.html">Ilmoitukset</a>
+            <a href="index.php">Login</a>
+            <a href="lisaa.php">Lisää ilmoitus</a>
+            <a href="ilmoitukset.php">Ilmoitukset</a>
         </nav>
     </header>
     <div id="table">
