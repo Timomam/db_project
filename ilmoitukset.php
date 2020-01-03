@@ -35,7 +35,7 @@ require_once("mysqlConnection.php");
           <tbody>
 
 <?php
-include("listaa_oivallus.php");
+include("listaa_ilmoitukset.php");
 ?>
 
               </tbody>
