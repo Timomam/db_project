@@ -30,6 +30,7 @@ require_once("mysqlConnection.php");
             <th class="column4">tyontekijaID</th>
             <th class="column5">laatu</th>
             <th class="column6">selite</th>
+            <th class="column7">poista</th>
           </tr>
           <tbody>
 
