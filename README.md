@@ -1,3 +1,3 @@
 # riskiseuranta
-School project
+School project:
 A small app for workplace safety monitoring 
