@@ -21,7 +21,8 @@ require_once("mysqlConnection.php");
             <a href="ilmoitukset.php">Ilmoitukset</a>
         </nav>
     </header>
-    <div id="input-window" action="lisaa_oivallus.php" method="post">
+    <div id="input-window">
+    <form action="lisaa_ilmoitus.php" method="post">
         <p>Lisää ilmoitus</p>
         <div id="input1">
             <input type="date">
@@ -44,6 +45,7 @@ require_once("mysqlConnection.php");
         </div>
         <div id="button">
             <input type="button" value="Lähetä">
+        </form>
         </div>
     </div>
     <footer>
