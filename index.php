@@ -27,7 +27,9 @@ require_once("mysqlConnection.php");
             <input type="text" name="username" placeholder="Käyttäjänimi">
             <input type="text" name="password" placeholder="Salasana">
         </div>
+        <div id="login-button">
         <input type="button" value="kirjaudu">
+        </div>
     </div>
     <footer>
     </footer>

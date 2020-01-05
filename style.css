@@ -79,6 +79,10 @@ header nav {
     color: #EBEBEB;
 }
 
+#login-button {
+    margin: auto;
+}
+
 #input-window {
     width: 650px;
     height: 400px;
