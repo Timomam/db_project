@@ -14,7 +14,6 @@ if ($result->num_rows > 0) {
             <td>" . $row["laatu"]. "</td>
             <td>" . $row["selite"]. "</td>
             <td><a href='poista_ilmoitus.php?id=" . $row["id"]. "'>X</a></td>
-            <td><input type="number" name="osastoID" placeholder="osastoID"></td>
         </tr>";
     }
 } else {
