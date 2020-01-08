@@ -13,7 +13,7 @@ require_once("mysqlConnection.php");
 <body>
     <header>
         <div class="logo">
-            <h1>Riskiseuranta</h1>
+            <h1>Riskiseurantaa</h1>
         </div>
         <nav>
             <a href="index.php">Login</a>
